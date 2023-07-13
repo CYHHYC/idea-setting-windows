@@ -1,0 +1,59 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="check Is Under Approval" />
+      <item value="校验是否在审批中" />
+      <item value="check Is Aprronvaling" />
+      <item value="矩阵经理工号字符串" />
+      <item value="总裁审核工号字符串" />
+      <item value="总裁决策工号字符串" />
+      <item value="开阀批准报告" />
+      <item value="获取组织n级部门负责人信息" />
+      <item value="select Org Manager Info" />
+      <item value="中心部门code" />
+      <item value="负责人" />
+      <item value="中心负责人" />
+      <item value="级别" />
+      <item value="等级" />
+      <item value="获取中心负责人" />
+      <item value="重新签批" />
+      <item value="责任人用户名列表" />
+      <item value="current user has no permission to this project" />
+      <item value="approval User Names" />
+      <item value="APPLY" />
+      <item value="不适用申请" />
+      <item value="签批人" />
+      <item value="责任人" />
+      <item value="阀门交付物签批" />
+      <item value="G 10固定成员" />
+      <item value="valve" />
+      <item value="Returns a stream consisting of the results of replacing each element of this stream with the contents of a mapped stream produced by applying the provided mapping function to each element. Each mapped stream is {@link java.util.stream.BaseStreamclose() closed} after its contents have been placed into this stream. (If a mapped stream is {@code null} an empty stream is used, instead.) &lt;p&gt;This is an &lt;a href=&quot;package-summary.htmlStreamOps&quot;&gt;intermediate operation&lt;a&gt;. @apiNote The {@code flatMap()} operation has the effect of applying a one-to-many transformation to the elements of the stream, and then flattening the resulting elements into a new stream. &lt;p&gt;&lt;b&gt;Examples.&lt;b&gt; &lt;p&gt;If {@code orders} is a stream of purchase orders, and each purchase order contains a collection of line items, then the following produces a stream containing all the line items in all the orders: &lt;pre&gt;{@code orders.flatMap(order -&gt; order.getLineItems().stream())... }&lt;pre&gt; &lt;p&gt;If {@code path} is the path to a file, then the following produces a stream of the {@code words} contained in that file: &lt;pre&gt;{@code Stream&lt;String&gt; lines = Files.lines(path, StandardCharsets.UTF_8); Stream&lt;String&gt; words = lines.flatMap(line -&gt; Stream.of(line.split(&quot; +&quot;))); }&lt;pre&gt; The {@code mapper} function passed to {@code flatMap} splits a line, using a simple regular expression, into an array of words, and then creates a stream of words from that array. @param &lt;R&gt; The element type of the new stream @param mapper a &lt;a href=&quot;package-summary.htmlNonInterference&quot;&gt;non-interfering&lt;a&gt;, &lt;a href=&quot;package-summary.htmlStatelessness&quot;&gt;stateless&lt;a&gt; function to apply to each element which produces a stream of new values @return the new stream" />
+      <item value="Returns a {@code Stream} consisting of the elements of this stream, each boxed to an {@code Integer}. &lt;p&gt;This is an &lt;a href=&quot;package-summary.htmlStreamOps&quot;&gt;intermediate operation&lt;a&gt;. @return a {@code Stream} consistent of the elements of this stream, each boxed to an {@code Integer}" />
+      <item value="步骤整合" />
+      <item value="不合法" />
+      <item value="Approval" />
+      <item value="出现业务异常" />
+      <item value="Eligible to terminate" />
+      <item value="Rolls back the worker thread creation. - removes worker from workers, if present - decrements worker count - rechecks for termination, in case the existence of this worker was holding up termination" />
+      <item value="Causes this thread to begin execution; the Java Virtual Machine calls the &lt;code&gt;run&lt;code&gt; method of this thread. &lt;p&gt; The result is that two threads are running concurrently: the current thread (which returns from the call to the &lt;code&gt;start&lt;code&gt; method) and the other thread (which executes its &lt;code&gt;run&lt;code&gt; method). &lt;p&gt; It is never legal to start a thread more than once. In particular, a thread may not be restarted once it has completed execution. @exception IllegalThreadStateException if the thread was already started. @see run() @see stop()" />
+      <item value="校验是否可禁用" />
+      <item value="拼接" />
+      <item value="get If Present" />
+      <item value="biz Unique Key" />
+      <item value="length" />
+      <item value="Deprecated" />
+      <item value="Column" />
+      <item value="组件" />
+      <item value="Compent Export Config" />
+      <item value="导出明细表" />
+      <item value="表单明细" />
+      <item value="send" />
+      <item value="Sent" />
+      <item value="荷兰" />
+      <item value="biz" />
+    </histories>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1688459304722" />
+  </component>
+</application>
