@@ -56,9 +56,18 @@
   <component name="Cache">
     <option name="lastTrimTime" value="1688459304722" />
   </component>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1689248843624" />
+  </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogWidth" value="598" />
-    <option name="newTranslationDialogX" value="-1107" />
-    <option name="newTranslationDialogY" value="447" />
+    <histories>
+      <item value="Sets the maximum number of digits allowed in the fraction portion of a number. maximumFractionDigits must be ≥ minimumFractionDigits. If the new value for maximumFractionDigits is less than the current value of minimumFractionDigits, then minimumFractionDigits will also be set to the new value. Params: newValue – the maximum number of fraction digits to be shown; if less than zero, then zero is used. The concrete subclass may enforce an upper limit to this value appropriate to the numeric type being formatted. See Also: getMaximumFractionDigits" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="1" />
+        <entry key="ENGLISH" value="1" />
+      </map>
+    </option>
   </component>
 </application>
