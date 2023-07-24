@@ -61,6 +61,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="open Research Module Job Numbers" />
+      <item value="研发模块负责人" />
       <item value="Deputy" />
       <item value="do Check Open Quality Score" />
       <item value="Mdc Response Data" />
@@ -70,8 +72,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="5" />
-        <entry key="ENGLISH" value="6" />
+        <entry key="CHINESE" value="7" />
+        <entry key="ENGLISH" value="8" />
       </map>
     </option>
   </component>
