@@ -61,6 +61,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Valve Quality Service" />
       <item value="阀门健康度" />
       <item value="Remind" />
       <item value="Valve Delivery Score Remind" />
@@ -82,7 +83,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="16" />
-        <entry key="ENGLISH" value="16" />
+        <entry key="ENGLISH" value="17" />
       </map>
     </option>
   </component>
