@@ -61,6 +61,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="downloading patch files" />
       <item value="calculte Delivery Rate" />
       <item value="Valve Quality Service" />
       <item value="阀门健康度" />
@@ -83,8 +84,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="17" />
-        <entry key="ENGLISH" value="18" />
+        <entry key="CHINESE" value="18" />
+        <entry key="ENGLISH" value="19" />
       </map>
     </option>
   </component>
