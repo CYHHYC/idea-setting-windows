@@ -1,6 +1,20 @@
 <application>
   <component name="easyJavadoc">
     <option name="author" value="caoyh1" />
+    <option name="projectWordMap">
+      <map>
+        <entry key="xp-evi-basic">
+          <value>
+            <map />
+          </value>
+        </entry>
+        <entry key="xp-vpms">
+          <value>
+            <map />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="simpleFieldDoc" value="true" />
   </component>
 </application>
