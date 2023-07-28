@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="recive Clients" />
       <item value="VERSION_SUFFIX" />
       <item value="su" />
       <item value="后缀" />
@@ -97,7 +98,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="25" />
-        <entry key="ENGLISH" value="23" />
+        <entry key="ENGLISH" value="24" />
       </map>
     </option>
   </component>
