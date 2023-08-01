@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="Deprecated" />
       <item value="delivery" />
       <item value="矩阵总经理" />
       <item value="recive Clients" />
@@ -100,7 +101,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="26" />
-        <entry key="ENGLISH" value="26" />
+        <entry key="ENGLISH" value="27" />
       </map>
     </option>
   </component>
