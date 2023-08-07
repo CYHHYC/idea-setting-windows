@@ -1,5 +1,6 @@
 <application>
   <component name="SmartInputGeneralSceneConfigState">
+    <option name="commitMessageScene" value="{&quot;capsLockState&quot;:false,&quot;code&quot;:&quot;commitMessage&quot;,&quot;enable&quot;:false,&quot;languageType&quot;:&quot;CHINESE&quot;,&quot;name&quot;:&quot;Git Commit Message&quot;,&quot;tip&quot;:&quot;光标处于Git Commit Message区域切换为中文&quot;}" />
     <option name="toolWindowChineseScene" value="{&quot;capsLockState&quot;:false,&quot;code&quot;:&quot;&quot;,&quot;enable&quot;:false,&quot;languageType&quot;:&quot;CHINESE&quot;,&quot;name&quot;:&quot;指定ToolWindow切换为中文&quot;,&quot;tip&quot;:&quot;指定ToolWindow获取到焦点时切换为中文&quot;}" />
   </component>
 </application>
