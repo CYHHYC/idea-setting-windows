@@ -57,13 +57,23 @@
     <option name="lastTrimTime" value="1688459304722" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1690856749648" />
+    <option name="lastTrimTime" value="1693187609542" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogWidth" value="596" />
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="copilot" />
+      <item value="lasting day" />
+      <item value="lasting" />
+      <item value="last day" />
+      <item value="demographic" />
+      <item value="人口增长" />
+      <item value="删除当前版本的所有交付实例" />
+      <item value="open Maturity" />
+      <item value="TEN SCORE" />
+      <item value="Close the stream. This method does not release the buffer, since its contents might still be required. Note: Invoking this method in this class will have no effect." />
       <item value="Deprecated" />
       <item value="delivery" />
       <item value="矩阵总经理" />
@@ -100,8 +110,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="26" />
-        <entry key="ENGLISH" value="27" />
+        <entry key="CHINESE" value="36" />
+        <entry key="ENGLISH" value="37" />
       </map>
     </option>
   </component>
