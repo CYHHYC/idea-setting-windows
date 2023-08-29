@@ -60,10 +60,11 @@
     <option name="lastTrimTime" value="1693187609542" />
   </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogWidth" value="596" />
+    <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="层级查询" />
       <item value="copilot" />
       <item value="lasting day" />
       <item value="lasting" />
@@ -110,8 +111,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="36" />
-        <entry key="ENGLISH" value="37" />
+        <entry key="CHINESE" value="43" />
+        <entry key="ENGLISH" value="43" />
       </map>
     </option>
   </component>
