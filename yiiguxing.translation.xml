@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="显著的" />
       <item value="stragey" />
       <item value="层级查询" />
       <item value="copilot" />
@@ -112,7 +113,7 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="43" />
+        <entry key="CHINESE" value="44" />
         <entry key="ENGLISH" value="44" />
       </map>
     </option>
