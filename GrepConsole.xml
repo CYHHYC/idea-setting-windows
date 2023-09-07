@@ -7,7 +7,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="sql" />
+                <option name="expression" value="app_id值缺失" />
               </GrepModel>
             </list>
           </option>
@@ -16,7 +16,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="app_id值缺失" />
+                <option name="expression" value="sql" />
               </GrepModel>
             </list>
           </option>
