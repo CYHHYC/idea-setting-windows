@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="Determines if the class or interface represented by this {@code Class} object is either the same as, or is a superclass or superinterface of, the class or interface represented by the specified {@code Class} parameter. It returns {@code true} if so; otherwise it returns {@code false}. If this {@code Class} object represents a primitive type, this method returns {@code true} if the specified {@code Class} parameter is exactly this {@code Class} object; otherwise it returns {@code false}. &lt;p&gt; Specifically, this method tests whether the type represented by the specified {@code Class} parameter can be converted to the type represented by this {@code Class} object via an identity conversion or via a widening reference conversion. See &lt;em&gt;The Java Language Specification&lt;em&gt;, sections 5.1.1 and 5.1.4 , for details. @param cls the {@code Class} object to be checked @return the {@code boolean} value indicating whether objects of the type {@code cls} can be assigned to objects of this class @exception NullPointerException if the specified Class parameter is null. @since JDK1.1" />
       <item value="更新当前文件夹及所有子文件夹的路径名" />
       <item value="fair" />
       <item value="Nonfair Sync" />
@@ -113,12 +114,11 @@
       <item value="Deputy" />
       <item value="do Check Open Quality Score" />
       <item value="Mdc Response Data" />
-      <item value="push Vehicle Model To Mdc" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="48" />
-        <entry key="ENGLISH" value="48" />
+        <entry key="ENGLISH" value="49" />
       </map>
     </option>
   </component>
