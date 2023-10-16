@@ -57,13 +57,22 @@
     <option name="lastTrimTime" value="1688459304722" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1696841457167" />
+    <option name="lastTrimTime" value="1697425478421" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="平台产品矩阵总经理" />
+      <item value="审核人" />
+      <item value="项目总监" />
+      <item value="研发总监" />
+      <item value="particpants" />
+      <item value="参与人员" />
+      <item value="审核" />
+      <item value="approve" />
+      <item value="audit" />
       <item value="Determines if the class or interface represented by this {@code Class} object is either the same as, or is a superclass or superinterface of, the class or interface represented by the specified {@code Class} parameter. It returns {@code true} if so; otherwise it returns {@code false}. If this {@code Class} object represents a primitive type, this method returns {@code true} if the specified {@code Class} parameter is exactly this {@code Class} object; otherwise it returns {@code false}. &lt;p&gt; Specifically, this method tests whether the type represented by the specified {@code Class} parameter can be converted to the type represented by this {@code Class} object via an identity conversion or via a widening reference conversion. See &lt;em&gt;The Java Language Specification&lt;em&gt;, sections 5.1.1 and 5.1.4 , for details. @param cls the {@code Class} object to be checked @return the {@code boolean} value indicating whether objects of the type {@code cls} can be assigned to objects of this class @exception NullPointerException if the specified Class parameter is null. @since JDK1.1" />
       <item value="更新当前文件夹及所有子文件夹的路径名" />
       <item value="fair" />
@@ -105,20 +114,11 @@
       <item value="Valve Delivery Score Remind" />
       <item value="组织负责人返回体" />
       <item value="Organization Principal Vo" />
-      <item value="负责人" />
-      <item value="组织负责人" />
-      <item value="Organization Principle Vo" />
-      <item value="部门负责人信息" />
-      <item value="open Research Module Job Numbers" />
-      <item value="研发模块负责人" />
-      <item value="Deputy" />
-      <item value="do Check Open Quality Score" />
-      <item value="Mdc Response Data" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="48" />
-        <entry key="ENGLISH" value="49" />
+        <entry key="CHINESE" value="56" />
+        <entry key="ENGLISH" value="56" />
       </map>
     </option>
   </component>
