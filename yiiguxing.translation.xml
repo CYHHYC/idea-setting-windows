@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="专业经理" />
       <item value="平台产品矩阵总经理" />
       <item value="审核人" />
       <item value="项目总监" />
@@ -113,12 +114,11 @@
       <item value="Remind" />
       <item value="Valve Delivery Score Remind" />
       <item value="组织负责人返回体" />
-      <item value="Organization Principal Vo" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="56" />
-        <entry key="ENGLISH" value="56" />
+        <entry key="CHINESE" value="57" />
+        <entry key="ENGLISH" value="57" />
       </map>
     </option>
   </component>
