@@ -3,27 +3,15 @@
     <option name="author" value="caoyh1" />
     <option name="projectWordMap">
       <map>
-        <entry key="eureka">
-          <value>
-            <map />
-          </value>
-        </entry>
-        <entry key="xp-evi-basic">
-          <value>
-            <map />
-          </value>
-        </entry>
+        <entry key="eureka" />
+        <entry key="xp-evi-basic" />
         <entry key="xp-mds" />
         <entry key="xp-vpms">
           <value>
             <map />
           </value>
         </entry>
-        <entry key="xp-vvip">
-          <value>
-            <map />
-          </value>
-        </entry>
+        <entry key="xp-vvip" />
       </map>
     </option>
     <option name="simpleFieldDoc" value="true" />
