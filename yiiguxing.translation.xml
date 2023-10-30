@@ -64,6 +64,8 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="计算" />
+      <item value="do Calcute Plan Task Over Time Count" />
       <item value="只获取待办达成率情况" />
       <item value="trends" />
       <item value="to Do Complete Rate" />
@@ -112,13 +114,11 @@
       <item value="二级部门负责人" />
       <item value="project Manager Info" />
       <item value="车型研发组织架构" />
-      <item value="downloading patch files" />
-      <item value="calculte Delivery Rate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="60" />
-        <entry key="ENGLISH" value="60" />
+        <entry key="CHINESE" value="62" />
+        <entry key="ENGLISH" value="62" />
       </map>
     </option>
   </component>
