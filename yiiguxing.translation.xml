@@ -57,13 +57,15 @@
     <option name="lastTrimTime" value="1688459304722" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1697425478421" />
+    <option name="lastTrimTime" value="1698628477311" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="to Do Complete Rate" />
+      <item value="待办达成率" />
       <item value="encapsulation" />
       <item value="专业经理" />
       <item value="平台产品矩阵总经理" />
@@ -112,13 +114,11 @@
       <item value="calculte Delivery Rate" />
       <item value="Valve Quality Service" />
       <item value="阀门健康度" />
-      <item value="Remind" />
-      <item value="Valve Delivery Score Remind" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="57" />
-        <entry key="ENGLISH" value="58" />
+        <entry key="CHINESE" value="58" />
+        <entry key="ENGLISH" value="59" />
       </map>
     </option>
   </component>
