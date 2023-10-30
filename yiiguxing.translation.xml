@@ -64,6 +64,8 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="只获取待办达成率情况" />
+      <item value="trends" />
       <item value="to Do Complete Rate" />
       <item value="待办达成率" />
       <item value="encapsulation" />
@@ -112,13 +114,11 @@
       <item value="车型研发组织架构" />
       <item value="downloading patch files" />
       <item value="calculte Delivery Rate" />
-      <item value="Valve Quality Service" />
-      <item value="阀门健康度" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="58" />
-        <entry key="ENGLISH" value="59" />
+        <entry key="CHINESE" value="60" />
+        <entry key="ENGLISH" value="60" />
       </map>
     </option>
   </component>
