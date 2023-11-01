@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="别名" />
       <item value="计算" />
       <item value="do Calcute Plan Task Over Time Count" />
       <item value="只获取待办达成率情况" />
@@ -113,12 +114,11 @@
       <item value="manager Job Number" />
       <item value="二级部门负责人" />
       <item value="project Manager Info" />
-      <item value="车型研发组织架构" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="62" />
-        <entry key="ENGLISH" value="62" />
+        <entry key="CHINESE" value="63" />
+        <entry key="ENGLISH" value="63" />
       </map>
     </option>
   </component>
