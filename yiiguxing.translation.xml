@@ -57,13 +57,14 @@
     <option name="lastTrimTime" value="1688459304722" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1698628477311" />
+    <option name="lastTrimTime" value="1699258944353" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="do Analisy" />
       <item value="驾驶舱" />
       <item value="别名" />
       <item value="计算" />
@@ -113,12 +114,12 @@
       <item value="编制人信息" />
       <item value="部门负责人工号" />
       <item value="manager Job Number" />
-      <item value="二级部门负责人" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="65" />
         <entry key="ENGLISH" value="65" />
+        <entry key="PORTUGUESE" value="2" />
       </map>
     </option>
   </component>
