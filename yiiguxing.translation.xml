@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="option" />
       <item value="进行中" />
       <item value="do Analisy" />
       <item value="驾驶舱" />
@@ -113,12 +114,11 @@
       <item value="su" />
       <item value="后缀" />
       <item value="编制人信息" />
-      <item value="部门负责人工号" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="66" />
-        <entry key="ENGLISH" value="66" />
+        <entry key="ENGLISH" value="67" />
         <entry key="PORTUGUESE" value="2" />
       </map>
     </option>
