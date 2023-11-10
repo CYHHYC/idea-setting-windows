@@ -6,6 +6,11 @@
         <entry key="eureka" />
         <entry key="xp-evi-basic" />
         <entry key="xp-mds" />
+        <entry key="xp-mds-image">
+          <value>
+            <map />
+          </value>
+        </entry>
         <entry key="xp-vpms">
           <value>
             <map />
