@@ -1,0 +1,22 @@
+<application>
+  <component name="datasource">
+    <option name="configurations">
+      <list>
+        <DatasourceConfiguration>
+          <option name="database" value="xp_vvip" />
+          <option name="host" value="rm-bp1159hheb12r10zr5o.mysql.rds.aliyuncs.com" />
+          <option name="name" value="vvip-test" />
+          <option name="password" value="KSzbRBKa8h5TH5U_" />
+          <option name="port" value="3306" />
+          <option name="user" value="xp_vvip" />
+        </DatasourceConfiguration>
+      </list>
+    </option>
+    <option name="current" value="vvip-test" />
+  </component>
+  <component name="lexicon">
+    <option name="lexicons">
+      <list />
+    </option>
+  </component>
+</application>
