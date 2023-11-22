@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="complement" />
       <item value="business Dir" />
       <item value="pivot" />
       <item value="option" />
@@ -113,12 +114,11 @@
       <item value="矩阵总经理" />
       <item value="recive Clients" />
       <item value="VERSION_SUFFIX" />
-      <item value="su" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="69" />
-        <entry key="ENGLISH" value="69" />
+        <entry key="ENGLISH" value="70" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
       </map>
