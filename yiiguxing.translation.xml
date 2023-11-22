@@ -57,13 +57,14 @@
     <option name="lastTrimTime" value="1688459304722" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1700123274000" />
+    <option name="lastTrimTime" value="1700621635709" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="business Dir" />
       <item value="pivot" />
       <item value="option" />
       <item value="进行中" />
@@ -113,12 +114,12 @@
       <item value="recive Clients" />
       <item value="VERSION_SUFFIX" />
       <item value="su" />
-      <item value="后缀" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="68" />
+        <entry key="CHINESE" value="69" />
         <entry key="ENGLISH" value="69" />
+        <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
       </map>
     </option>
