@@ -4,7 +4,11 @@
     <option name="projectWordMap">
       <map>
         <entry key="eureka" />
-        <entry key="xp-evi-basic" />
+        <entry key="xp-evi-basic">
+          <value>
+            <map />
+          </value>
+        </entry>
         <entry key="xp-mds" />
         <entry key="xp-mds-image" />
         <entry key="xp-vpms" />
