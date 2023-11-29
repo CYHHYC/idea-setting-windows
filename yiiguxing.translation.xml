@@ -64,6 +64,8 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="tuned" />
+      <item value="proof" />
       <item value="合格率" />
       <item value="recruiting" />
       <item value="print Even" />
@@ -112,13 +114,11 @@
       <item value="人口增长" />
       <item value="删除当前版本的所有交付实例" />
       <item value="open Maturity" />
-      <item value="TEN SCORE" />
-      <item value="Close the stream. This method does not release the buffer, since its contents might still be required. Note: Invoking this method in this class will have no effect." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="73" />
-        <entry key="ENGLISH" value="73" />
+        <entry key="CHINESE" value="75" />
+        <entry key="ENGLISH" value="76" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
       </map>
