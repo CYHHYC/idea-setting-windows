@@ -64,6 +64,31 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="Performs Http session-related functionality when a new authentication occurs. @throws SessionAuthenticationException if it is decided that the authentication is not allowed for the session. This will typically be because the user has too many sessions open at once." />
+      <item value="attempt Authentication" />
+      <item value="An {@link org.springframework.security.core.Authentication} implementation that is designed for simple presentation of a username and password. &lt;p&gt; The &lt;code&gt;principal&lt;code&gt; and &lt;code&gt;credentials&lt;code&gt; should be set with an &lt;code&gt;Object&lt;code&gt; that provides the respective property via its &lt;code&gt;Object.toString()&lt;code&gt; method. The simplest such &lt;code&gt;Object&lt;code&gt; to use is &lt;code&gt;String&lt;code&gt;. @author Ben Alex" />
+      <item value="The credentials that prove the principal is correct. This is usually a password, but could be anything relevant to the &lt;code&gt;AuthenticationManager&lt;code&gt;. Callers are expected to populate the credentials. @return the credentials that prove the identity of the &lt;code&gt;Principal&lt;code&gt;" />
+      <item value="get Credentials" />
+      <item value="Set by an &lt;code&gt;AuthenticationManager&lt;code&gt; to indicate the authorities that the principal has been granted. Note that classes should not rely on this value as being valid unless it has been set by a trusted &lt;code&gt;AuthenticationManager&lt;code&gt;. &lt;p&gt; Implementations should ensure that modifications to the returned collection array do not affect the state of the Authentication object, or use an unmodifiable instance. &lt;p&gt; @return the authorities granted to the principal, or an empty collection if the token has not been authenticated. Never null." />
+      <item value="Represents the token for an authentication request or for an authenticated principal once the request has been processed by the {@link AuthenticationManagerauthenticate(Authentication)} method. &lt;p&gt; Once the request has been authenticated, the &lt;tt&gt;Authentication&lt;tt&gt; will usually be stored in a thread-local &lt;tt&gt;SecurityContext&lt;tt&gt; managed by the {@link SecurityContextHolder} by the authentication mechanism which is being used. An explicit authentication can be achieved, without using one of Spring Security's authentication mechanisms, by creating an &lt;tt&gt;Authentication&lt;tt&gt; instance and using the code: &lt;pre&gt; SecurityContextHolder.getContext().setAuthentication(anAuthentication); &lt;pre&gt; Note that unless the &lt;tt&gt;Authentication&lt;tt&gt; has the &lt;tt&gt;authenticated&lt;tt&gt; property set to &lt;tt&gt;true&lt;tt&gt;, it will still be authenticated by any security interceptor (for method or web invocations) which encounters it. &lt;p&gt; In most cases, the framework transparently takes care of managing the security context and authentication objects for you. @author Ben Alex" />
+      <item value="Authentication" />
+      <item value="retrieve User" />
+      <item value="Allows subclasses to actually retrieve the &lt;code&gt;UserDetails&lt;code&gt; from an implementation-specific location, with the option of throwing an &lt;code&gt;AuthenticationException&lt;code&gt; immediately if the presented credentials are incorrect (this is especially useful if it is necessary to bind to a resource as the user in order to obtain or generate a &lt;code&gt;UserDetails&lt;code&gt;). &lt;p&gt; Subclasses are not required to perform any caching, as the &lt;code&gt;AbstractUserDetailsAuthenticationProvider&lt;code&gt; will by default cache the &lt;code&gt;UserDetails&lt;code&gt;. The caching of &lt;code&gt;UserDetails&lt;code&gt; does present additional complexity as this means subsequent requests that rely on the cache will need to still have their credentials validated, even if the correctness of credentials was assured by subclasses adopting a binding-based strategy in this method. Accordingly it is important that subclasses either disable caching (if they want to ensure that this method is the only method that is capable of authenticating a request, as no &lt;code&gt;UserDetails&lt;code&gt; will ever be cached) or ensure subclasses implement {@link additionalAuthenticationChecks(UserDetails, UsernamePasswordAuthenticationToken)} to compare the credentials of a cached &lt;code&gt;UserDetails&lt;code&gt; with subsequent authentication requests. &lt;p&gt; &lt;p&gt; Most of the time subclasses will not perform credentials inspection in this method, instead performing it in {@link additionalAuthenticationChecks(UserDetails, UsernamePasswordAuthenticationToken)} so that code related to credentials validation need not be duplicated across two methods. &lt;p&gt; @param username The username to retrieve @param authentication The authentication request, which subclasses &lt;em&gt;may&lt;em&gt; need to perform a binding-based retrieval of the &lt;code&gt;UserDetails&lt;code&gt; @return the user information (never &lt;code&gt;null&lt;code&gt; - instead an exception should the thrown) @throws AuthenticationException if the credentials could not be validated (generally a &lt;code&gt;BadCredentialsException&lt;code&gt;, an &lt;code&gt;AuthenticationServiceException&lt;code&gt; or &lt;code&gt;UsernameNotFoundException&lt;code&gt;)" />
+      <item value="authenticate" />
+      <item value="Attempts to authenticate the passed {@link Authentication} object, returning a fully populated &lt;code&gt;Authentication&lt;code&gt; object (including granted authorities) if successful. &lt;p&gt; An &lt;code&gt;AuthenticationManager&lt;code&gt; must honour the following contract concerning exceptions: &lt;ul&gt; &lt;li&gt;A {@link DisabledException} must be thrown if an account is disabled and the &lt;code&gt;AuthenticationManager&lt;code&gt; can test for this state.&lt;li&gt; &lt;li&gt;A {@link LockedException} must be thrown if an account is locked and the &lt;code&gt;AuthenticationManager&lt;code&gt; can test for account locking.&lt;li&gt; &lt;li&gt;A {@link BadCredentialsException} must be thrown if incorrect credentials are presented. Whilst the above exceptions are optional, an &lt;code&gt;AuthenticationManager&lt;code&gt; must &lt;B&gt;always&lt;B&gt; test credentials.&lt;li&gt; &lt;ul&gt; Exceptions should be tested for and if applicable thrown in the order expressed above (i.e. if an account is disabled or locked, the authentication request is immediately rejected and the credentials testing process is not performed). This prevents credentials being tested against disabled or locked accounts. @param authentication the authentication request object @return a fully authenticated object including credentials @throws AuthenticationException if authentication fails" />
+      <item value="Processes an {@link Authentication} request. @author Ben Alex" />
+      <item value="Interface for granters of access tokens. Various grant types are defined in the specification, and each of those has an implementation, leaving room for extensions to the specification as needed. @author Dave Syer" />
+      <item value="The scope was requested or determined during the authorization step" />
+      <item value="Implicit" />
+      <item value="authenticated Client" />
+      <item value="This interface represents the abstract notion of a principal, which can be used to represent any entity, such as an individual, a corporation, and a login id. @see java.security.cert.X509Certificate @author Li Gong" />
+      <item value="Principal" />
+      <item value="Represents an authority granted to an {@link Authentication} object. &lt;p&gt; A &lt;code&gt;GrantedAuthority&lt;code&gt; must either represent itself as a &lt;code&gt;String&lt;code&gt; or be specifically supported by an {@link AccessDecisionManager}. @author Ben Alex" />
+      <item value="This constructor can be safely used by any code that wishes to create a &lt;code&gt;UsernamePasswordAuthenticationToken&lt;code&gt;, as the {@link isAuthenticated()} will return &lt;code&gt;false&lt;code&gt;." />
+      <item value="public UsernamePasswordAuthenticationToken(Object principal, Object credentials) { super(null); this.principal = principal; this.credentials = credentials; setAuthenticated(false); }" />
+      <item value="Indicates that the implementing object contains sensitive data, which can be erased using the {@code eraseCredentials} method. Implementations are expected to invoke the method on any internal objects which may also implement this interface. &lt;p&gt; For internal framework use only. Users who are writing their own {@code AuthenticationProvider} implementations should create and return an appropriate {@code Authentication} object there, minus any sensitive data, rather than using this interface. @author Luke Taylor @since 3.0.3" />
+      <item value="Indicates whether to write the headers at the beginning of the request." />
+      <item value="Filter implementation to add headers to the current response. Can be useful to add certain headers which enable browser protection. Like X-Frame-Options, X-XSS-Protection and X-Content-Type-Options. @author Marten Deinum @author Josh Cummings @author Ankur Pathak @since 3.2" />
       <item value="tuned" />
       <item value="proof" />
       <item value="合格率" />
@@ -89,36 +114,11 @@
       <item value="专业经理" />
       <item value="平台产品矩阵总经理" />
       <item value="审核人" />
-      <item value="项目总监" />
-      <item value="研发总监" />
-      <item value="particpants" />
-      <item value="参与人员" />
-      <item value="审核" />
-      <item value="approve" />
-      <item value="audit" />
-      <item value="Determines if the class or interface represented by this {@code Class} object is either the same as, or is a superclass or superinterface of, the class or interface represented by the specified {@code Class} parameter. It returns {@code true} if so; otherwise it returns {@code false}. If this {@code Class} object represents a primitive type, this method returns {@code true} if the specified {@code Class} parameter is exactly this {@code Class} object; otherwise it returns {@code false}. &lt;p&gt; Specifically, this method tests whether the type represented by the specified {@code Class} parameter can be converted to the type represented by this {@code Class} object via an identity conversion or via a widening reference conversion. See &lt;em&gt;The Java Language Specification&lt;em&gt;, sections 5.1.1 and 5.1.4 , for details. @param cls the {@code Class} object to be checked @return the {@code boolean} value indicating whether objects of the type {@code cls} can be assigned to objects of this class @exception NullPointerException if the specified Class parameter is null. @since JDK1.1" />
-      <item value="更新当前文件夹及所有子文件夹的路径名" />
-      <item value="fair" />
-      <item value="Nonfair Sync" />
-      <item value="享乐主义" />
-      <item value="SQL SINGLE" />
-      <item value="Create a new MimeMessageHelper for the given MimeMessage, in multipart mode (supporting alternative texts, inline elements and attachments) if requested. &lt;p&gt;Consider using the MimeMessageHelper constructor that takes a multipartMode argument to choose a specific multipart mode other than MULTIPART_MODE_MIXED_RELATED. &lt;p&gt;The character encoding for the message will be taken from the passed-in MimeMessage object, if carried there. Else, JavaMail's default encoding will be used. @param mimeMessage the mime message to work on @param multipart whether to create a multipart message that supports alternative texts, inline elements and attachments (corresponds to MULTIPART_MODE_MIXED_RELATED) @throws MessagingException if multipart creation failed @see MimeMessageHelper(javax.mail.internet.MimeMessage, int) @see getDefaultEncoding(javax.mail.internet.MimeMessage) @see JavaMailSenderImplsetDefaultEncoding" />
-      <item value="显著的" />
-      <item value="stragey" />
-      <item value="层级查询" />
-      <item value="copilot" />
-      <item value="lasting day" />
-      <item value="lasting" />
-      <item value="last day" />
-      <item value="demographic" />
-      <item value="人口增长" />
-      <item value="删除当前版本的所有交付实例" />
-      <item value="open Maturity" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="76" />
-        <entry key="ENGLISH" value="77" />
+        <entry key="CHINESE" value="104" />
+        <entry key="ENGLISH" value="105" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
       </map>
