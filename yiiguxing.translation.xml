@@ -64,6 +64,8 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="Whether the requested redirect URI &quot;matches&quot; the specified redirect URI. For a URL, this implementation tests if the user requested redirect starts with the registered redirect, so it would have the same host and root path if it is an HTTP URL. The port, userinfo, query params also matched. Request redirect uri path can include additional parameters which are ignored for the match &lt;p&gt; For other (non-URL) cases, such as for some implicit clients, the redirect_uri must be an exact match. @param requestedRedirect The requested redirect URI. @param redirectUri The registered redirect URI. @return Whether the requested redirect URI &quot;matches&quot; the specified redirect URI." />
+      <item value="Attempt to match one of the registered URIs to the that of the requested one. @param redirectUris the set of the registered URIs to try and find a match. This cannot be null or empty. @param requestedRedirect the URI used as part of the request @return redirect uri @throws RedirectMismatchException if no match was found" />
       <item value="get Authorization Code Response" />
       <item value="get Implicit Grant Response" />
       <item value="Used to indicate to {@code AbstractSecurityInterceptor} whether it should present the authentication token to the &lt;code&gt;AuthenticationManager&lt;code&gt;. Typically an &lt;code&gt;AuthenticationManager&lt;code&gt; (or, more often, one of its &lt;code&gt;AuthenticationProvider&lt;code&gt;s) will return an immutable authentication token after successful authentication, in which case that token can safely return &lt;code&gt;true&lt;code&gt; to this method. Returning &lt;code&gt;true&lt;code&gt; will improve performance, as calling the &lt;code&gt;AuthenticationManager&lt;code&gt; for every request will no longer be necessary. &lt;p&gt; For security reasons, implementations of this interface should be very careful about returning &lt;code&gt;true&lt;code&gt; from this method unless they are either immutable, or have some way of ensuring the properties have not been changed since original creation. @return true if the token has been authenticated and the &lt;code&gt;AbstractSecurityInterceptor&lt;code&gt; does not need to present the token to the &lt;code&gt;AuthenticationManager&lt;code&gt; again for re-authentication." />
@@ -112,13 +114,11 @@
       <item value="business Dir" />
       <item value="pivot" />
       <item value="option" />
-      <item value="进行中" />
-      <item value="do Analisy" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="119" />
-        <entry key="ENGLISH" value="120" />
+        <entry key="CHINESE" value="121" />
+        <entry key="ENGLISH" value="122" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
       </map>
