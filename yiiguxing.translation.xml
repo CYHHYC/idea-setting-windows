@@ -64,6 +64,9 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="反转字符串" />
+      <item value="Revrese Str" />
+      <item value="Reserves Str" />
       <item value="Palindrome" />
       <item value="longest Palindrome" />
       <item value="regrex" />
@@ -111,14 +114,11 @@
       <item value="tuned" />
       <item value="proof" />
       <item value="合格率" />
-      <item value="recruiting" />
-      <item value="print Even" />
-      <item value="幂等" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="126" />
-        <entry key="ENGLISH" value="127" />
+        <entry key="CHINESE" value="129" />
+        <entry key="ENGLISH" value="129" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
       </map>
