@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="Gets the {@code LocalTime} part of this date-time. &lt;p&gt; This returns a {@code LocalTime} with the same hour, minute, second and nanosecond as this date-time. @return the time part of this date-time, not null" />
       <item value="A date without a time-zone in the ISO-8601 calendar system, such as {@code 2007-12-03}. &lt;p&gt; {@code LocalDate} is an immutable date-time object that represents a date, often viewed as year-month-day. Other date fields, such as day-of-year, day-of-week and week-of-year, can also be accessed. For example, the value &quot;2nd October 2007&quot; can be stored in a {@code LocalDate}. &lt;p&gt; This class does not store or represent a time or time-zone. Instead, it is a description of the date, as used for birthdays. It cannot represent an instant on the time-line without additional information such as an offset or time-zone. &lt;p&gt; The ISO-8601 calendar system is the modern civil calendar system used today in most of the world. It is equivalent to the proleptic Gregorian calendar system, in which today's rules for leap years are applied for all time. For most applications written today, the ISO-8601 rules are entirely suitable. However, any application that makes use of historical dates, and requires them to be accurate will find the ISO-8601 approach unsuitable. &lt;p&gt; This is a &lt;a href=&quot;{@docRoot}javalangdoc-filesValueBased.html&quot;&gt;value-based&lt;a&gt; class; use of identity-sensitive operations (including reference equality ({@code ==}), identity hash code, or synchronization) on instances of {@code LocalDate} may have unpredictable results and should be avoided. The {@code equals} method should be used for comparisons. @implSpec This class is immutable and thread-safe. @since 1.8" />
       <item value="Gets the day-of-week field, which is an enum {@code DayOfWeek}. &lt;p&gt; This method returns the enum {@link DayOfWeek} for the day-of-week. This avoids confusion as to what {@code int} values mean. If you need access to the primitive {@code int} value then the enum provides the {@link DayOfWeekgetValue() int value}. &lt;p&gt; Additional information can be obtained from the {@code DayOfWeek}. This includes textual names of the values. @return the day-of-week, not null" />
       <item value="Traversal" />
@@ -113,12 +114,11 @@
       <item value="Represents an authority granted to an {@link Authentication} object. &lt;p&gt; A &lt;code&gt;GrantedAuthority&lt;code&gt; must either represent itself as a &lt;code&gt;String&lt;code&gt; or be specifically supported by an {@link AccessDecisionManager}. @author Ben Alex" />
       <item value="This constructor can be safely used by any code that wishes to create a &lt;code&gt;UsernamePasswordAuthenticationToken&lt;code&gt;, as the {@link isAuthenticated()} will return &lt;code&gt;false&lt;code&gt;." />
       <item value="public UsernamePasswordAuthenticationToken(Object principal, Object credentials) { super(null); this.principal = principal; this.credentials = credentials; setAuthenticated(false); }" />
-      <item value="Indicates that the implementing object contains sensitive data, which can be erased using the {@code eraseCredentials} method. Implementations are expected to invoke the method on any internal objects which may also implement this interface. &lt;p&gt; For internal framework use only. Users who are writing their own {@code AuthenticationProvider} implementations should create and return an appropriate {@code Authentication} object there, minus any sensitive data, rather than using this interface. @author Luke Taylor @since 3.0.3" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="133" />
-        <entry key="ENGLISH" value="134" />
+        <entry key="CHINESE" value="134" />
+        <entry key="ENGLISH" value="135" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
       </map>
