@@ -57,13 +57,14 @@
     <option name="lastTrimTime" value="1688459304722" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1701675293687" />
+    <option name="lastTrimTime" value="1702281495751" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="Traversal" />
       <item value="This class hides and serves as a substitute for the underlying logging system's MDC implementation. &lt;p&gt; If the underlying logging system offers MDC functionality, then SLF4J's MDC, i.e. this class, will delegate to the underlying system's MDC. Note that at this time, only two logging systems, namely log4j and logback, offer MDC functionality. For java.util.logging which does not support MDC, {@link BasicMDCAdapter} will be used. For other systems, i.e. slf4j-simple and slf4j-nop, {@link NOPMDCAdapter} will be used. &lt;p&gt; Thus, as a SLF4J user, you can take advantage of MDC in the presence of log4j, logback, or java.util.logging, but without forcing these systems as dependencies upon your users. &lt;p&gt; For more information on MDC please see the &lt;a href=&quot;http:logback.qos.chmanualmdc.html&quot;&gt;chapter on MDC&lt;a&gt; in the logback manual. &lt;p&gt; Please note that all methods in this class are static. @author Ceki G&amp;uuml;lc&amp;uuml; @since 1.4.1" />
       <item value="@return the name of the argument in the advice signature to bind the thrown exception to" />
       <item value="反转字符串" />
@@ -113,12 +114,11 @@
       <item value="Indicates that the implementing object contains sensitive data, which can be erased using the {@code eraseCredentials} method. Implementations are expected to invoke the method on any internal objects which may also implement this interface. &lt;p&gt; For internal framework use only. Users who are writing their own {@code AuthenticationProvider} implementations should create and return an appropriate {@code Authentication} object there, minus any sensitive data, rather than using this interface. @author Luke Taylor @since 3.0.3" />
       <item value="Indicates whether to write the headers at the beginning of the request." />
       <item value="Filter implementation to add headers to the current response. Can be useful to add certain headers which enable browser protection. Like X-Frame-Options, X-XSS-Protection and X-Content-Type-Options. @author Marten Deinum @author Josh Cummings @author Ankur Pathak @since 3.2" />
-      <item value="tuned" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="130" />
-        <entry key="ENGLISH" value="131" />
+        <entry key="CHINESE" value="131" />
+        <entry key="ENGLISH" value="132" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
       </map>

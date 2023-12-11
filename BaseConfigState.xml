@@ -2,6 +2,8 @@
   <component name="SmartInputBaseConfigState">
     <option name="chineseInputSourceName" value="搜狗拼音" />
     <option name="englishInputSourceName" value="微软拼音" />
+    <option name="englishCaretColor" value="绿色" />
+    <option name="activeChangeStrategy" value="STOP_UNTIL_NEXT_ACTIVE_CHANGE" />
     <option name="inputRemedy" value="false" />
     <option name="autoGenerateCustomScene" value="false" />
   </component>

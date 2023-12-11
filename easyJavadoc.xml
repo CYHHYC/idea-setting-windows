@@ -3,6 +3,11 @@
     <option name="author" value="caoyh1" />
     <option name="projectWordMap">
       <map>
+        <entry key="MyOIDC">
+          <value>
+            <map />
+          </value>
+        </entry>
         <entry key="eureka" />
         <entry key="xp-evi-basic">
           <value>
