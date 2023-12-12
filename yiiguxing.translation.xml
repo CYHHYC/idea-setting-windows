@@ -64,6 +64,12 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="Check if host matches the registered value. @param registered the registered host. Can be null. @param requested the requested host. Can be null. @return true if they match" />
+      <item value="get Scheme" />
+      <item value="Whether the requested redirect URI &quot;matches&quot; the specified redirect URI. For a URL, this implementation tests if the user requested redirect starts with the registered redirect, so it would have the same host and root path if it is an HTTP URL. The port, userinfo, query params also matched. Request redirect uri path can include additional parameters which are ignored for the match &lt;p&gt; For other (non-URL) cases, such as for some implicit clients, the redirect_uri must be an exact match. @param requestedRedirect The requested redirect URI. @param redirectUri The registered redirect URI. @return Whether the requested redirect URI &quot;matches&quot; the specified redirect URI." />
+      <item value="Attempt to match one of the registered URIs to the that of the requested one. @param redirectUris the set of the registered URIs to try and find a match. This cannot be null or empty. @param requestedRedirect the URI used as part of the request @return redirect uri @throws RedirectMismatchException if no match was found" />
+      <item value="The resolved redirect URI is either the redirect_uri from the parameters or the one from clientDetails. Either way we need to store it on the AuthorizationRequest." />
+      <item value="The resolved redirect URI of this request. A URI may be present in the original request, in the authorizationParameters, or it may not be provided, in which case it will be defaulted (by processing classes) to the Client's default registered value." />
       <item value="Temporal Field" />
       <item value="Chrono Field" />
       <item value="A standard set of fields. &lt;p&gt; This set of fields provide field-based access to manipulate a date, time or date-time. The standard set of fields can be extended by implementing {@link TemporalField}. &lt;p&gt; These fields are intended to be applicable in multiple calendar systems. For example, most non-ISO calendar systems define dates as a year, month and day, just with slightly different rules. The documentation of each field explains how it operates. @implSpec This is a final, immutable and thread-safe enum. @since 1.8" />
@@ -83,8 +89,6 @@
       <item value="regrex" />
       <item value="aback" />
       <item value="fiction" />
-      <item value="Whether the requested redirect URI &quot;matches&quot; the specified redirect URI. For a URL, this implementation tests if the user requested redirect starts with the registered redirect, so it would have the same host and root path if it is an HTTP URL. The port, userinfo, query params also matched. Request redirect uri path can include additional parameters which are ignored for the match &lt;p&gt; For other (non-URL) cases, such as for some implicit clients, the redirect_uri must be an exact match. @param requestedRedirect The requested redirect URI. @param redirectUri The registered redirect URI. @return Whether the requested redirect URI &quot;matches&quot; the specified redirect URI." />
-      <item value="Attempt to match one of the registered URIs to the that of the requested one. @param redirectUris the set of the registered URIs to try and find a match. This cannot be null or empty. @param requestedRedirect the URI used as part of the request @return redirect uri @throws RedirectMismatchException if no match was found" />
       <item value="get Authorization Code Response" />
       <item value="get Implicit Grant Response" />
       <item value="Used to indicate to {@code AbstractSecurityInterceptor} whether it should present the authentication token to the &lt;code&gt;AuthenticationManager&lt;code&gt;. Typically an &lt;code&gt;AuthenticationManager&lt;code&gt; (or, more often, one of its &lt;code&gt;AuthenticationProvider&lt;code&gt;s) will return an immutable authentication token after successful authentication, in which case that token can safely return &lt;code&gt;true&lt;code&gt; to this method. Returning &lt;code&gt;true&lt;code&gt; will improve performance, as calling the &lt;code&gt;AuthenticationManager&lt;code&gt; for every request will no longer be necessary. &lt;p&gt; For security reasons, implementations of this interface should be very careful about returning &lt;code&gt;true&lt;code&gt; from this method unless they are either immutable, or have some way of ensuring the properties have not been changed since original creation. @return true if the token has been authenticated and the &lt;code&gt;AbstractSecurityInterceptor&lt;code&gt; does not need to present the token to the &lt;code&gt;AuthenticationManager&lt;code&gt; again for re-authentication." />
@@ -110,15 +114,11 @@
       <item value="authenticate" />
       <item value="Attempts to authenticate the passed {@link Authentication} object, returning a fully populated &lt;code&gt;Authentication&lt;code&gt; object (including granted authorities) if successful. &lt;p&gt; An &lt;code&gt;AuthenticationManager&lt;code&gt; must honour the following contract concerning exceptions: &lt;ul&gt; &lt;li&gt;A {@link DisabledException} must be thrown if an account is disabled and the &lt;code&gt;AuthenticationManager&lt;code&gt; can test for this state.&lt;li&gt; &lt;li&gt;A {@link LockedException} must be thrown if an account is locked and the &lt;code&gt;AuthenticationManager&lt;code&gt; can test for account locking.&lt;li&gt; &lt;li&gt;A {@link BadCredentialsException} must be thrown if incorrect credentials are presented. Whilst the above exceptions are optional, an &lt;code&gt;AuthenticationManager&lt;code&gt; must &lt;B&gt;always&lt;B&gt; test credentials.&lt;li&gt; &lt;ul&gt; Exceptions should be tested for and if applicable thrown in the order expressed above (i.e. if an account is disabled or locked, the authentication request is immediately rejected and the credentials testing process is not performed). This prevents credentials being tested against disabled or locked accounts. @param authentication the authentication request object @return a fully authenticated object including credentials @throws AuthenticationException if authentication fails" />
       <item value="Processes an {@link Authentication} request. @author Ben Alex" />
-      <item value="Interface for granters of access tokens. Various grant types are defined in the specification, and each of those has an implementation, leaving room for extensions to the specification as needed. @author Dave Syer" />
-      <item value="The scope was requested or determined during the authorization step" />
-      <item value="Implicit" />
-      <item value="authenticated Client" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="139" />
-        <entry key="ENGLISH" value="140" />
+        <entry key="CHINESE" value="146" />
+        <entry key="ENGLISH" value="147" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
       </map>
