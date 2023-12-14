@@ -64,6 +64,8 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="commit" />
+      <item value="distinguish commercial commit" />
       <item value="恶魔" />
       <item value="乏味" />
       <item value="枯燥的" />
@@ -112,13 +114,11 @@
       <item value="get Credentials" />
       <item value="Set by an &lt;code&gt;AuthenticationManager&lt;code&gt; to indicate the authorities that the principal has been granted. Note that classes should not rely on this value as being valid unless it has been set by a trusted &lt;code&gt;AuthenticationManager&lt;code&gt;. &lt;p&gt; Implementations should ensure that modifications to the returned collection array do not affect the state of the Authentication object, or use an unmodifiable instance. &lt;p&gt; @return the authorities granted to the principal, or an empty collection if the token has not been authenticated. Never null." />
       <item value="Represents the token for an authentication request or for an authenticated principal once the request has been processed by the {@link AuthenticationManagerauthenticate(Authentication)} method. &lt;p&gt; Once the request has been authenticated, the &lt;tt&gt;Authentication&lt;tt&gt; will usually be stored in a thread-local &lt;tt&gt;SecurityContext&lt;tt&gt; managed by the {@link SecurityContextHolder} by the authentication mechanism which is being used. An explicit authentication can be achieved, without using one of Spring Security's authentication mechanisms, by creating an &lt;tt&gt;Authentication&lt;tt&gt; instance and using the code: &lt;pre&gt; SecurityContextHolder.getContext().setAuthentication(anAuthentication); &lt;pre&gt; Note that unless the &lt;tt&gt;Authentication&lt;tt&gt; has the &lt;tt&gt;authenticated&lt;tt&gt; property set to &lt;tt&gt;true&lt;tt&gt;, it will still be authenticated by any security interceptor (for method or web invocations) which encounters it. &lt;p&gt; In most cases, the framework transparently takes care of managing the security context and authentication objects for you. @author Ben Alex" />
-      <item value="retrieve User" />
-      <item value="Allows subclasses to actually retrieve the &lt;code&gt;UserDetails&lt;code&gt; from an implementation-specific location, with the option of throwing an &lt;code&gt;AuthenticationException&lt;code&gt; immediately if the presented credentials are incorrect (this is especially useful if it is necessary to bind to a resource as the user in order to obtain or generate a &lt;code&gt;UserDetails&lt;code&gt;). &lt;p&gt; Subclasses are not required to perform any caching, as the &lt;code&gt;AbstractUserDetailsAuthenticationProvider&lt;code&gt; will by default cache the &lt;code&gt;UserDetails&lt;code&gt;. The caching of &lt;code&gt;UserDetails&lt;code&gt; does present additional complexity as this means subsequent requests that rely on the cache will need to still have their credentials validated, even if the correctness of credentials was assured by subclasses adopting a binding-based strategy in this method. Accordingly it is important that subclasses either disable caching (if they want to ensure that this method is the only method that is capable of authenticating a request, as no &lt;code&gt;UserDetails&lt;code&gt; will ever be cached) or ensure subclasses implement {@link additionalAuthenticationChecks(UserDetails, UsernamePasswordAuthenticationToken)} to compare the credentials of a cached &lt;code&gt;UserDetails&lt;code&gt; with subsequent authentication requests. &lt;p&gt; &lt;p&gt; Most of the time subclasses will not perform credentials inspection in this method, instead performing it in {@link additionalAuthenticationChecks(UserDetails, UsernamePasswordAuthenticationToken)} so that code related to credentials validation need not be duplicated across two methods. &lt;p&gt; @param username The username to retrieve @param authentication The authentication request, which subclasses &lt;em&gt;may&lt;em&gt; need to perform a binding-based retrieval of the &lt;code&gt;UserDetails&lt;code&gt; @return the user information (never &lt;code&gt;null&lt;code&gt; - instead an exception should the thrown) @throws AuthenticationException if the credentials could not be validated (generally a &lt;code&gt;BadCredentialsException&lt;code&gt;, an &lt;code&gt;AuthenticationServiceException&lt;code&gt; or &lt;code&gt;UsernameNotFoundException&lt;code&gt;)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="149" />
-        <entry key="ENGLISH" value="149" />
+        <entry key="CHINESE" value="150" />
+        <entry key="ENGLISH" value="151" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
       </map>
