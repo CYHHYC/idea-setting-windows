@@ -64,6 +64,8 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="actual Editable" />
+      <item value="Copy the property values of the given source bean into the given target bean. &lt;p&gt;Note: The source and target classes do not have to match or even be derived from each other, as long as the properties match. Any bean properties that the source bean exposes but the target bean does not will silently be ignored. &lt;p&gt;As of Spring Framework 5.3, this method honors generic type information when matching properties in the source and target objects. See the documentation for {@link copyProperties(Object, Object)} for details. @param source the source bean @param target the target bean @param editable the class (or interface) to restrict property setting to @param ignoreProperties array of property names to ignore @throws BeansException if the copying failed @see BeanWrapper" />
       <item value="commit" />
       <item value="distinguish commercial commit" />
       <item value="恶魔" />
@@ -112,15 +114,14 @@
       <item value="An {@link org.springframework.security.core.Authentication} implementation that is designed for simple presentation of a username and password. &lt;p&gt; The &lt;code&gt;principal&lt;code&gt; and &lt;code&gt;credentials&lt;code&gt; should be set with an &lt;code&gt;Object&lt;code&gt; that provides the respective property via its &lt;code&gt;Object.toString()&lt;code&gt; method. The simplest such &lt;code&gt;Object&lt;code&gt; to use is &lt;code&gt;String&lt;code&gt;. @author Ben Alex" />
       <item value="The credentials that prove the principal is correct. This is usually a password, but could be anything relevant to the &lt;code&gt;AuthenticationManager&lt;code&gt;. Callers are expected to populate the credentials. @return the credentials that prove the identity of the &lt;code&gt;Principal&lt;code&gt;" />
       <item value="get Credentials" />
-      <item value="Set by an &lt;code&gt;AuthenticationManager&lt;code&gt; to indicate the authorities that the principal has been granted. Note that classes should not rely on this value as being valid unless it has been set by a trusted &lt;code&gt;AuthenticationManager&lt;code&gt;. &lt;p&gt; Implementations should ensure that modifications to the returned collection array do not affect the state of the Authentication object, or use an unmodifiable instance. &lt;p&gt; @return the authorities granted to the principal, or an empty collection if the token has not been authenticated. Never null." />
-      <item value="Represents the token for an authentication request or for an authenticated principal once the request has been processed by the {@link AuthenticationManagerauthenticate(Authentication)} method. &lt;p&gt; Once the request has been authenticated, the &lt;tt&gt;Authentication&lt;tt&gt; will usually be stored in a thread-local &lt;tt&gt;SecurityContext&lt;tt&gt; managed by the {@link SecurityContextHolder} by the authentication mechanism which is being used. An explicit authentication can be achieved, without using one of Spring Security's authentication mechanisms, by creating an &lt;tt&gt;Authentication&lt;tt&gt; instance and using the code: &lt;pre&gt; SecurityContextHolder.getContext().setAuthentication(anAuthentication); &lt;pre&gt; Note that unless the &lt;tt&gt;Authentication&lt;tt&gt; has the &lt;tt&gt;authenticated&lt;tt&gt; property set to &lt;tt&gt;true&lt;tt&gt;, it will still be authenticated by any security interceptor (for method or web invocations) which encounters it. &lt;p&gt; In most cases, the framework transparently takes care of managing the security context and authentication objects for you. @author Ben Alex" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="150" />
-        <entry key="ENGLISH" value="151" />
+        <entry key="CHINESE" value="152" />
+        <entry key="ENGLISH" value="152" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
+        <entry key="SPANISH" value="1" />
       </map>
     </option>
   </component>
