@@ -57,13 +57,15 @@
     <option name="lastTrimTime" value="1688459304722" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1702281495751" />
+    <option name="lastTrimTime" value="1702974768542" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="标准3 d" />
+      <item value="stand 3 d Type" />
       <item value="actual Editable" />
       <item value="Copy the property values of the given source bean into the given target bean. &lt;p&gt;Note: The source and target classes do not have to match or even be derived from each other, as long as the properties match. Any bean properties that the source bean exposes but the target bean does not will silently be ignored. &lt;p&gt;As of Spring Framework 5.3, this method honors generic type information when matching properties in the source and target objects. See the documentation for {@link copyProperties(Object, Object)} for details. @param source the source bean @param target the target bean @param editable the class (or interface) to restrict property setting to @param ignoreProperties array of property names to ignore @throws BeansException if the copying failed @see BeanWrapper" />
       <item value="commit" />
@@ -112,13 +114,11 @@
       <item value="Performs Http session-related functionality when a new authentication occurs. @throws SessionAuthenticationException if it is decided that the authentication is not allowed for the session. This will typically be because the user has too many sessions open at once." />
       <item value="attempt Authentication" />
       <item value="An {@link org.springframework.security.core.Authentication} implementation that is designed for simple presentation of a username and password. &lt;p&gt; The &lt;code&gt;principal&lt;code&gt; and &lt;code&gt;credentials&lt;code&gt; should be set with an &lt;code&gt;Object&lt;code&gt; that provides the respective property via its &lt;code&gt;Object.toString()&lt;code&gt; method. The simplest such &lt;code&gt;Object&lt;code&gt; to use is &lt;code&gt;String&lt;code&gt;. @author Ben Alex" />
-      <item value="The credentials that prove the principal is correct. This is usually a password, but could be anything relevant to the &lt;code&gt;AuthenticationManager&lt;code&gt;. Callers are expected to populate the credentials. @return the credentials that prove the identity of the &lt;code&gt;Principal&lt;code&gt;" />
-      <item value="get Credentials" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="152" />
-        <entry key="ENGLISH" value="152" />
+        <entry key="CHINESE" value="153" />
+        <entry key="ENGLISH" value="153" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
         <entry key="SPANISH" value="1" />
