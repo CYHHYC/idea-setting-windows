@@ -64,6 +64,8 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="密级" />
+      <item value="运维需求" />
       <item value="expect" />
       <item value="except" />
       <item value="标准3 d" />
@@ -112,13 +114,11 @@
       <item value="get O Auth 2 Authentication" />
       <item value="Facade" />
       <item value="Attachment Permisson Facade" />
-      <item value="&lt;p&gt; Implementation of the Authorization Endpoint from the OAuth2 specification. Accepts authorization requests, and handles user approval if the grant type is authorization code. The tokens themselves are obtained from the {@link TokenEndpoint Token Endpoint}, except in the implicit grant type (where they come from the Authorization Endpoint via &lt;code&gt;response_type=token&lt;code&gt;. &lt;p&gt; &lt;p&gt; This endpoint should be secured so that it is only accessible to fully authenticated users (as a minimum requirement) since it represents a request from a valid user to act on his or her behalf. &lt;p&gt; @author Dave Syer @author Vladimir Kryachko" />
-      <item value="Performs Http session-related functionality when a new authentication occurs. @throws SessionAuthenticationException if it is decided that the authentication is not allowed for the session. This will typically be because the user has too many sessions open at once." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="154" />
-        <entry key="ENGLISH" value="155" />
+        <entry key="CHINESE" value="156" />
+        <entry key="ENGLISH" value="156" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
         <entry key="SPANISH" value="1" />
