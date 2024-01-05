@@ -3,18 +3,19 @@
     <option name="author" value="caoyh1" />
     <option name="projectWordMap">
       <map>
-        <entry key="MyOIDC">
+        <entry key="MyOIDC" />
+        <entry key="MyTest_JDK17">
           <value>
             <map />
           </value>
         </entry>
         <entry key="eureka" />
-        <entry key="xp-evi-basic">
+        <entry key="xp-evi-basic" />
+        <entry key="xp-mds">
           <value>
             <map />
           </value>
         </entry>
-        <entry key="xp-mds" />
         <entry key="xp-mds-image" />
         <entry key="xp-vpms" />
         <entry key="xp-vvip">
