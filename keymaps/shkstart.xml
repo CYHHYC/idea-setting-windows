@@ -80,4 +80,8 @@
   </action>
   <action id="VcsHistory.ShowAllAffected" />
   <action id="context.save" />
+  <action id="javadoc.generator">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="javadoc.generatorAll" />
 </keymap>
