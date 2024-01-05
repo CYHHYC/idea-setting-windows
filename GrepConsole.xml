@@ -39,6 +39,15 @@
             </list>
           </option>
         </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="2024-01-05 16:26:35.444  WARN [xp-mds-boot,7b6f0bbdd96aa9ec,606af7cf11458539] 26248 --- [sync-assembly-service-1] c.x.m.b.handler.EntityAutoFillHandler    : 当前loginUser的guid为空, 当前用户未登录/定时任务没有登录用户" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
       </list>
     </option>
     <option name="profiles">
