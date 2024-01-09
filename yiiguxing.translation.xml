@@ -57,13 +57,27 @@
     <option name="lastTrimTime" value="1688459304722" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1703468532597" />
+    <option name="lastTrimTime" value="1704357829271" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="REVISE" />
+      <item value="Publish Application Sor Service" />
+      <item value="Permission Application Service" />
+      <item value="Company Standard Abolish Service" />
+      <item value="通知" />
+      <item value="Approver" />
+      <item value="analysis Point" />
+      <item value="create Model Point" />
+      <item value="递归" />
+      <item value="算法" />
+      <item value="Collapse Builder" />
+      <item value="探索者" />
+      <item value="explorer" />
+      <item value="agenda" />
       <item value="密级" />
       <item value="运维需求" />
       <item value="expect" />
@@ -100,25 +114,12 @@
       <item value="Palindrome" />
       <item value="longest Palindrome" />
       <item value="regrex" />
-      <item value="aback" />
-      <item value="fiction" />
-      <item value="get Authorization Code Response" />
-      <item value="get Implicit Grant Response" />
-      <item value="Used to indicate to {@code AbstractSecurityInterceptor} whether it should present the authentication token to the &lt;code&gt;AuthenticationManager&lt;code&gt;. Typically an &lt;code&gt;AuthenticationManager&lt;code&gt; (or, more often, one of its &lt;code&gt;AuthenticationProvider&lt;code&gt;s) will return an immutable authentication token after successful authentication, in which case that token can safely return &lt;code&gt;true&lt;code&gt; to this method. Returning &lt;code&gt;true&lt;code&gt; will improve performance, as calling the &lt;code&gt;AuthenticationManager&lt;code&gt; for every request will no longer be necessary. &lt;p&gt; For security reasons, implementations of this interface should be very careful about returning &lt;code&gt;true&lt;code&gt; from this method unless they are either immutable, or have some way of ensuring the properties have not been changed since original creation. @return true if the token has been authenticated and the &lt;code&gt;AbstractSecurityInterceptor&lt;code&gt; does not need to present the token to the &lt;code&gt;AuthenticationManager&lt;code&gt; again for re-authentication." />
-      <item value="Authentication" />
-      <item value="Authorization Request" />
-      <item value="Some systems may allow for approval decisions to be remembered or approved by default. Check for such logic here, and set the approved flag on the authorization request accordingly." />
-      <item value="authorization Request" />
-      <item value="Convenient strategy for configuring an OAUth2 Authorization Server. Beans of this type are applied to the Spring context automatically if you {@link EnableAuthorizationServer @EnableAuthorizationServer}. @author Dave Syer" />
-      <item value="O Auth 2 Authentication" />
-      <item value="get O Auth 2 Authentication" />
-      <item value="Facade" />
-      <item value="Attachment Permisson Facade" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="156" />
-        <entry key="ENGLISH" value="156" />
+        <entry key="CHINESE" value="169" />
+        <entry key="CHINESE_TRADITIONAL" value="1" />
+        <entry key="ENGLISH" value="170" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
         <entry key="SPANISH" value="1" />
