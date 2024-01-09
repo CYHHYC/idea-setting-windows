@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="自定义" />
       <item value="REVISE" />
       <item value="Publish Application Sor Service" />
       <item value="Permission Application Service" />
@@ -113,11 +114,10 @@
       <item value="Reserves Str" />
       <item value="Palindrome" />
       <item value="longest Palindrome" />
-      <item value="regrex" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="169" />
+        <entry key="CHINESE" value="170" />
         <entry key="CHINESE_TRADITIONAL" value="1" />
         <entry key="ENGLISH" value="170" />
         <entry key="LUXEMBOURGISH" value="1" />
