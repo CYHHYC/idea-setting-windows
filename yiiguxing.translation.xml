@@ -57,13 +57,15 @@
     <option name="lastTrimTime" value="1688459304722" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1704357829271" />
+    <option name="lastTrimTime" value="1704850493678" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="Custom Config" />
+      <item value="Costom Config" />
       <item value="自定义" />
       <item value="REVISE" />
       <item value="Publish Application Sor Service" />
@@ -112,14 +114,12 @@
       <item value="反转字符串" />
       <item value="Revrese Str" />
       <item value="Reserves Str" />
-      <item value="Palindrome" />
-      <item value="longest Palindrome" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="170" />
-        <entry key="CHINESE_TRADITIONAL" value="1" />
-        <entry key="ENGLISH" value="170" />
+        <entry key="CHINESE_TRADITIONAL" value="2" />
+        <entry key="ENGLISH" value="171" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
         <entry key="SPANISH" value="1" />
