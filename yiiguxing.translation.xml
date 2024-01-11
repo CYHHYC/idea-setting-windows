@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="A {@code Closeable} is a source or destination of data that can be closed. The close method is invoked to release resources that the object is holding (such as open files). @since" />
       <item value="Custom Config" />
       <item value="Costom Config" />
       <item value="自定义" />
@@ -113,13 +114,12 @@
       <item value="@return the name of the argument in the advice signature to bind the thrown exception to" />
       <item value="反转字符串" />
       <item value="Revrese Str" />
-      <item value="Reserves Str" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="170" />
+        <entry key="CHINESE" value="171" />
         <entry key="CHINESE_TRADITIONAL" value="2" />
-        <entry key="ENGLISH" value="171" />
+        <entry key="ENGLISH" value="172" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
         <entry key="SPANISH" value="1" />
