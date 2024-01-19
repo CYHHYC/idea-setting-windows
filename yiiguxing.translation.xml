@@ -64,6 +64,7 @@
     <option name="newTranslationDialogX" value="-1109" />
     <option name="newTranslationDialogY" value="445" />
     <histories>
+      <item value="Flips this buffer. The limit is set to the current position and then the position is set to zero. If the mark is defined then it is discarded. &lt;p&gt; After a sequence of channel-read or &lt;i&gt;put&lt;i&gt; operations, invoke this method to prepare for a sequence of channel-write or relative &lt;i&gt;get&lt;i&gt; operations. For example: &lt;blockquote&gt;&lt;pre&gt; buf.put(magic); Prepend header in.read(buf); Read data into rest of buffer buf.flip(); Flip buffer out.write(buf); Write header + data to channel&lt;pre&gt;&lt;blockquote&gt; &lt;p&gt; This method is often used in conjunction with the {@link java.nio.ByteBuffercompact compact} method when transferring data from one place to another. &lt;p&gt; @return This buffer" />
       <item value="key Allowed" />
       <item value="A {@code Closeable} is a source or destination of data that can be closed. The close method is invoked to release resources that the object is holding (such as open files). @since" />
       <item value="Custom Config" />
@@ -113,13 +114,12 @@
       <item value="Traversal" />
       <item value="This class hides and serves as a substitute for the underlying logging system's MDC implementation. &lt;p&gt; If the underlying logging system offers MDC functionality, then SLF4J's MDC, i.e. this class, will delegate to the underlying system's MDC. Note that at this time, only two logging systems, namely log4j and logback, offer MDC functionality. For java.util.logging which does not support MDC, {@link BasicMDCAdapter} will be used. For other systems, i.e. slf4j-simple and slf4j-nop, {@link NOPMDCAdapter} will be used. &lt;p&gt; Thus, as a SLF4J user, you can take advantage of MDC in the presence of log4j, logback, or java.util.logging, but without forcing these systems as dependencies upon your users. &lt;p&gt; For more information on MDC please see the &lt;a href=&quot;http:logback.qos.chmanualmdc.html&quot;&gt;chapter on MDC&lt;a&gt; in the logback manual. &lt;p&gt; Please note that all methods in this class are static. @author Ceki G&amp;uuml;lc&amp;uuml; @since 1.4.1" />
       <item value="@return the name of the argument in the advice signature to bind the thrown exception to" />
-      <item value="反转字符串" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="172" />
+        <entry key="CHINESE" value="173" />
         <entry key="CHINESE_TRADITIONAL" value="2" />
-        <entry key="ENGLISH" value="173" />
+        <entry key="ENGLISH" value="174" />
         <entry key="LUXEMBOURGISH" value="1" />
         <entry key="PORTUGUESE" value="2" />
         <entry key="SPANISH" value="1" />
