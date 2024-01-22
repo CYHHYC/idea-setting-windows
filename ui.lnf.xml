@@ -2,7 +2,6 @@
   <component name="UISettings">
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="13" />
     <option name="MAX_LOOKUP_WIDTH2" value="727" />
-    <option name="OPEN_IN_PREVIEW_TAB_IF_POSSIBLE" value="true" />
     <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
   </component>
 </application>
