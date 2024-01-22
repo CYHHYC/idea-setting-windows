@@ -1,0 +1,12 @@
+<application>
+  <component name="MavenCatalogManager">
+    <option name="local">
+      <list>
+        <Local>
+          <option name="name" value="mavenrepoxpeng" />
+          <option name="path" value="D:/maven3.6/mavenrepoxpeng" />
+        </Local>
+      </list>
+    </option>
+  </component>
+</application>
